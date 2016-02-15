@@ -1,0 +1,41 @@
+body{
+	background-color: #40E0D0;
+	margin: 0px;
+	text-align: center; /* IE hack */
+	background-image: url(bg.jpg);
+	font-family: Verdana;
+}
+
+div{
+	width: 700px;
+	background-color: rgba(255,255,255,0.5);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left; /* IE hack */
+	border: solid;
+	border-width: 2px;
+	border-color: #40E0D0;
+	padding: 12px;
+}
+
+h1{
+	background-color: rgba(0,128,192,0.5);
+	text-align: center;
+	margin: 0px;
+	padding: 30px;
+	color: white;
+	
+}
+
+h2{
+	font-family: Georgia;
+	color: #F2F5A9;
+	background-color: rgba(153,255,153,0.3);
+	padding: 10px;
+}
+
+a:hover{
+	color: blue;
+	background-color: transparent;
+	text-decoration: underline;
+}

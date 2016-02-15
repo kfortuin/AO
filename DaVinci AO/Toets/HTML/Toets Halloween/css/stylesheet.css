@@ -1,0 +1,128 @@
+
+/* Kevin Fortuin*/
+*{
+padding: 0px;
+margin: 0px;
+z-index: 0;
+}
+
+body{
+	background-image: url(../images/background.gif);
+	background-repeat: repeat-x repeat-y;
+	background-position: center;
+	color: #aabbaa;
+}
+
+div.top-menu{
+	padding: 5px;
+}
+
+div.top-menu ul{
+	list-style: none;
+	text-align: center;
+}
+
+div.top-menu ul li{
+	font-size: 12pt;
+	display: inline;
+	font-family: Georgia;
+	padding: 10px;
+}
+
+div.top-menu ul li a{
+	text-decoration: none;
+	color: #aabbaa;
+}
+
+div.top-menu ul li a:hover{
+	text-decoration: underline;
+}
+
+div.header{
+	background-image: url(../images/scary1.jpg);
+	background-repeat: no-repeat;
+	background-color: #241333;
+	background-width: 280px;
+	height: 210px;
+	font-family: Times;
+	margin-top: 5px;
+	text-align: center;
+}
+
+div.header h1, h2{
+	margin-left: 260px;
+}
+
+div.header h1{
+	padding-top: 60px;
+}
+
+div.header h2{
+	font-family: Tahoma;
+	font-weight: normal;
+}
+
+div.content{
+	padding: 5px 20px 5px 20px;
+}
+
+div.images{
+	position: relative;
+}
+
+/*Het lukte steeds maar niet om scary1.jpg 
+als parent te maken van de kleinere foto's, 
+ik heb van alles geprobeerd maar de foto's 
+bleven de body als parent zien*/
+
+#scary3{
+	float: right;
+	position: relative;
+}
+
+#radioactive{
+	position: absolute;
+	top: 30px;
+	right: 220px;
+}
+
+#devil{
+	position: absolute;
+	bottom: -280px;
+	right: 200px;
+}
+
+#pumpkin{
+	position: absolute;
+	top: -5px;
+	right: -40px;
+}
+
+div.content h1{
+	font-family: Times;
+}
+
+div.content p{
+	font-size: 13pt;
+}
+
+div.frame{
+	width: 960px;
+	background-color: #56614F;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	border: 2px solid black;
+}
+
+span.clear{
+	clear: both;
+	display: block;
+}
+
+#skullfixed{
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 99;
+}

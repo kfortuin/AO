@@ -1,0 +1,126 @@
+* {
+	margin : 0;
+	padding : 0;
+}
+
+body {
+	background-color : black;
+	background-image : url(../images/bg.jpg);
+	font-family : Verdana;
+}
+
+div.frame {
+	width : 800px;
+	margin : 20px auto;
+	background-color : rgba(255,255,255,0.5);
+	padding : 10px 15px 0px 15px;
+	border : solid 2px lightblue;
+}
+
+div.content {
+	background-color : white;
+	border : solid 1px black;
+	padding : 10px;
+	
+}
+
+div.header {
+	background-image : url(../images/angel.gif);
+	background-repeat : no-repeat;
+	padding : 10px 0px;
+	height : 170px;
+	text-align : right;
+}
+
+p.subtitle {
+	margin-top : 10px;
+	color : #888;
+	font-size : 22px;
+	font-style : italic;
+}
+
+ul.menu {
+	padding : 10px 5px;
+}
+
+ul.menu li{
+	display : inline;
+	margin-right : 20px;
+}
+
+
+ul.menu li a {
+	text-decoration : none;
+	color : #c33;
+	font-size : 18px;
+}
+
+ul.menu li a:hover {
+	text-decoration : underline;
+}
+
+img {
+	padding : 5px;
+	border : solid 1px grey;
+}
+
+
+img.img-topleft {
+	float : left;
+	margin-right : 10px;
+	margin-bottom : 5px;
+}
+
+img.img-topright {
+	float : right;
+	margin-left : 10px;
+	margin-bottom : 5px;
+}
+
+h1 {
+	text-align : right;
+	padding-top : 10px;
+	font-family : Georgia;
+	font-size : 55px;
+	font-weight : 900;
+	color : rgba(64,64,128,0.25);
+}
+
+div.article {
+	background-image : url(../images/separator.jpg);
+	background-repeat : no-repeat;
+	background-position : bottom center;
+	padding-bottom : 40px;
+	margin-bottom : 5px;
+}
+
+div.article p:first-letter {
+	font-size : 28px;
+	color : #66f;
+}
+
+div.footer {
+	padding : 10px 0px;
+}
+
+h2 {
+	margin-top : 15px;
+	font-family : Georgia;
+}
+
+p.uppertext {
+	font-style : italic;
+}
+
+a.readmore {
+	color : black;
+}
+
+ul.menu li a.active {
+	font-size : 30px;
+	color : purple;
+}
+
+p.footertext {
+	text-align : center;
+}

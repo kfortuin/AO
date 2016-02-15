@@ -1,0 +1,19 @@
+h1{
+	font-family: Tahoma;
+	color: white;
+}
+
+h2{
+	font-family: Tahoma;
+	color: white;
+}
+
+body{
+	background-color: grey;
+	color: white;
+	font-family: Verdana;
+}
+
+img{
+	margin-right: 5px;
+}

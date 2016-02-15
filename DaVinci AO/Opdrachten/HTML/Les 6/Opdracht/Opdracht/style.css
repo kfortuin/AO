@@ -1,0 +1,66 @@
+﻿/* scooter planet */
+
+div.frame{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255,255,224,0.8);
+}
+
+div.content{
+	margin-left: 200px;
+}
+
+body{
+	background: url(bg2.jpg);
+	background-color: grey;
+	font-family: Verdana;
+	font-size: 14px;
+
+}
+
+ul.top-menu{		
+	background: url(menu-bg.png);
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	padding-left: 150px;
+	
+}
+
+ul.top-menu li{
+	display: inline;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+ul.top-menu li a{
+	color: #ff4444;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+ul.top-menu li a:hover{
+	color: white;
+}
+
+ul.bottom-menu li{
+	display: inline;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+ul.bottom-menu{
+	background-color: black;
+	text-align: center;
+	padding: 2px;
+}
+
+ul.bottom-menu li a{
+	color: white;
+	text-decoration: none;
+	font-size: 11px;
+}

@@ -1,0 +1,113 @@
+div.frame{
+	background-color: rgba(255,255,255,0.8);
+	width: 800px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #31B404;
+}
+
+body{
+	background-color: grey;
+	background: url(HobbyBG.png);
+	background-size: cover;
+	background-position: center center;
+}
+
+h1{
+	text-align: center;
+}
+
+ul.topmenu{
+	background-color: #D8D8D8;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2px;
+	border: 5px inset #31B404;
+}
+
+ul.topmenu li{
+	display: inline;
+	margin-left: 15px;
+	margin-right: 15px;
+	
+}
+
+ul.topmenu li a{
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 15px;
+	text-align: center;
+}
+
+ul.topmenu li a:hover{
+	color: white;
+}
+
+ul.bottommenu{
+	background-color: black;
+	padding: 2px;
+	margin: 0px;
+}
+
+ul.bottommenu li{
+	display: inline;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+ul.bottommenu li a{
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 11px;
+	color: white;
+}
+
+ul.bottommenu li a:hover{
+	color: white;
+}
+
+ul.stores{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+ul.stores li{
+	list-style: none;
+}
+
+ul.stores li a{
+	color: #31B404;
+}
+
+ul.stores li a:hover{ 
+	color: white;
+}
+
+img{
+	border: 1px solid #31B404;
+}
+
+ul.merchandise li{
+	display: inline-block;
+	margin-right: 10px;
+	width: 210px;
+	vertical-align: top;
+}
+
+ul.merchandise li img{
+	display: block;
+	height: 200px;
+	width: 100%;
+	margin-bottom: 2px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,105 @@
+div.frame{
+	width: 1025px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.header{
+	background-image: url(../images/header_bg.png);
+	background-repeat: repeat-x;
+	height: 75px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 5px;
+}
+
+div.header img{
+	float:left;
+}
+
+.top-menu{
+	margin-top: 50px;
+	float: right;
+	margin-right: 50px;
+}
+
+.top-menu li{
+	list-style: none;
+	display: inline;
+	padding: 5px;
+	font-family: Arial;
+	font-size: 13pt;
+	
+}
+
+.top-menu li a{
+	text-decoration: none;
+	color: #385064;
+}
+
+.top-menu li a:hover{
+	color: #81A8BC;
+}
+
+div.banner{
+	background-image: url(../images/banner_bg.png);
+	background-repeat: repeat-x;
+	padding: 15px;
+	height: 425px;
+}
+
+div.bannertext{
+	color: white;
+	margin-left: 5px;
+}
+
+div.bannertext h1{
+	font-weight: normal;
+	font-family: Tahoma;
+	font-size: 20pt;
+}
+
+div.bannertext p{
+	font-size: 10pt;
+	font-family: Tahoma;
+	line-height: 155%;
+}
+
+img.bannerimg{
+	float: left;
+	margin-right: 20px;
+}
+
+div.content ul{
+	list-style: none;
+	padding: 20px;
+	padding-top: 0px;
+}
+
+ul.products{
+	height: 100%;
+	width: 1005px;
+	margin-left: 0px;
+}
+
+ul.products li{
+	display: inline-block;mgs
+	vertical-align: top;
+	float: left;
+	width: 300px;
+	margin-right: 35px;
+	margin-bottom: 15px;
+}
+
+div.content h1{ 
+	font-size: 15pt;
+	font-family: Tahoma;
+	font-weight: normal;
+	color: #555555;
+}
+
+div.content p{
+	font-size: 10pt;
+	font-family: Tahoma;
+	line-height: 155%;
+}

@@ -1,0 +1,19 @@
+body{
+	background-image: url("../images/Xperia.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+ /*tablet*/
+@media only screen and (min-width: 640px){
+	body{
+		background-image: url("../images/Tablet.jpg");
+	}
+}
+
+@media only screen and (min-width: 1000px){
+	body{
+		background-image: url("../images/Acer.png")
+	}
+}

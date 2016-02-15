@@ -1,0 +1,183 @@
+a img{
+	border: 0;
+}
+
+* {
+	margin : 0;
+	padding : 0;
+}
+
+body {
+	text-align : center;
+	font-family : Tahoma;
+	font-size : 14px;
+	background-color : black;
+}
+
+div.bar{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 99;
+	height: 25px;
+	background-image: url(bar1.png);
+}
+
+.bar ul{
+	list-style: none;
+	padding: 2px;
+}
+
+.bar ul li{
+	display: inline;
+}
+
+.bar ul li a{
+	color: grey;
+	text-decoration: none;
+	padding: 5px 20px;
+}
+
+.bar:hover{
+	background-image: url(bar2.png);
+}
+
+.bar:hover ul li a{
+	color: black;
+}
+
+div.all {
+	text-align : left;
+	width : 700px;
+	margin : 100px auto;
+	min-height : 600px;
+	background-image : url(bg.jpg);
+	border : 4px solid red;
+	position : relative;
+}
+
+#content{
+	margin-top: 400px;
+	padding: 5px;
+	color: white;
+}
+
+#content p{
+	padding: 5px;
+}
+
+.uitleg{
+	position: relative;
+	color: yellow;
+}
+
+.uitleg span{
+	display: none;
+	position: absolute;
+	top: 1.2em;
+	left: 0px;
+	width: 100px;
+	background-color: white;
+	border: 1px solid black;
+	color: red;
+	padding: 3px;
+}
+
+.uitleg:hover span{
+	display: block;
+}
+
+#title{
+	position: absolute;
+	left: 20px;
+	top: -70px;
+}
+
+#hamer{
+	position: absolute;
+	right: 200px;
+	top: -40px;
+	z-index: 20;
+}
+
+#hamer:hover img{
+	width: 180px;
+}
+
+#schroevendraaier{
+	position: absolute;
+	right: 20px;
+	top: 70px;
+}
+
+#schroevendraaier:hover img{
+	width: 250px;
+}
+
+#zaag{
+	position: absolute;
+	left: -40px;
+	top: 70px;
+}
+
+#zaag:hover img{
+	width: 230px;
+}
+
+#nijptang{
+	position: absolute;
+	right: -20px;
+	top: 250px;
+}
+
+#nijptang:hover img{
+	width: 250px;
+}
+
+#toolbox{	position: absolute;
+	right: 200px;
+	top: 200px;
+}
+
+#toolbox ul{
+	display: none;
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	top: 50px;
+}
+
+#toolbox:hover ul{
+	display: block;
+}
+
+#toolbox ul li{
+	background-color: white;
+	width: 100px;
+	padding: 2px;
+	border: black 1px solid;
+}
+
+#toolbox ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+#toolbox ul li a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

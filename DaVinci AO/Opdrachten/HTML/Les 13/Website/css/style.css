@@ -1,0 +1,217 @@
+div.frame{
+	width: 1000px;
+	margin: auto;
+}
+
+div.content-medievalenglish{
+	
+	margin-top: 10px;
+	background-image: url(../images/perkament-header.png), url(../images/perkament.png),
+	url(../images/perkament-footer.png);
+	background-position: center top, center middle, center bottom;
+	background-repeat: no-repeat, repeat-y, no-repeat;
+	padding: 10px;
+	color: black;
+	font-size: 20pt;
+	font-family: benegraphicregular;
+}
+
+div.content-mandarin{
+	margin-top: 10px;
+	background-image: url(../images/rice-paper-header.png), url(../images/rice-paper.png),
+	url(../rice-paper-footer.png);
+	background-position: center top, center middle, center bottom;
+	background-repeat: no-repeat, repeat-y, no-repeat;
+	padding: 10px;
+	color: black;
+	font-size: 20pt;
+	font-family: bushidoregular; 
+	border: solid black 1px;
+}
+
+div.content-newvulcan{
+	margin-top: 10px;
+	background-image: url(../images/newvulcanbg-header.png), url(../images/newvulcanbg.png),
+	url(../newvulcanbg-footer.png);
+	background-position: center top, center middle, center bottom;
+	background-repeat: no-repeat, repeat-y, no-repeat;
+	padding: 10px;
+	color: black;
+	font-size: 20pt;
+	font-family: bushidoregular; 
+
+}
+
+body.medievalenglish{
+	background-image: url(../images/marble3.jpg);
+	background-color: black;
+	font-family: Verdana;
+	color: white;
+	font-size: 10pt;
+}
+
+body.mandarin{
+	background-image: url(../images/sand1.jpg);
+	background-color: brown;
+	font-family: Verdana;
+	color: black;
+	font-size: 10pt;
+}
+
+body.newvulcan{
+	background-color: black;
+	font-family: Verdana;
+	color: black;
+	font-size: 10pt;
+}
+
+img.logo{
+	float: right;
+}
+
+img.divider{
+	margin-left: 400px;
+}
+
+img.bamboo{
+	margin-left: 400px;
+}
+
+
+h1.header{
+	color: white;
+	font-size: 50pt;
+	font-family: Arial;
+	font-weight: normal;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+h2.subtitle{
+	color: white;
+	font-family: Verdana;
+	font-size: 12pt;
+	font-weight: normal;
+	font-style: italic;
+}
+
+h2{
+	
+}
+
+div.top-menu-medievalenglish{
+	margin-top: 10px;
+}
+
+div.top-menu-medievalenglish ul li{
+	display: inline;
+	list-style: none;
+	color: #c51;
+}
+
+div.top-menu-medievalenglish ul li a{
+	text-decoration: none;
+	color: #c51;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+div.top-menu-medievalenglish ul li a:hover{
+	color: red;
+}
+
+div.top-menu-mandarin{
+	margin-top: 10px;
+}
+
+div.top-menu-mandarin ul li{
+	display: inline;
+	list-style: none;
+	color: #dda;
+}
+
+div.top-menu-mandarin ul li a{
+	text-decoration: none;
+	color: #dda;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+div.top-menu-mandarin ul li a:hover{
+	color: red;
+}
+
+div.top-menu-newvulcan{
+	margin-top: 10px;
+}
+
+div.top-menu-newvulcan ul li{
+	display: inline;
+	list-style: none;
+	color: grey;
+}
+
+div.top-menu-newvulcan ul li a{
+	text-decoration: none;
+	color: grey;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+div.top-menu-newvulcan ul li a:hover{
+	color: red;
+}
+
+div.top-menu-cardassian{
+	margin-top: 10px;
+}
+
+div.top-menu-cardassian ul li{
+	display: inline;
+	list-style: none;
+	color: #0489B1;
+}
+
+div.top-menu-cardassian ul li a{
+	text-decoration: none;
+	color: #0489B1;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+div.top-menu-cardassian ul li a:hover{
+	color: red;
+
+p.footer-medievalenglish{
+	margin-top: 2px;
+}
+
+p.footer-mandarin{
+	margin-top: 2px;
+	background-color: rgba(255,255,255,0.15);
+}
+
+@font-face {
+	font-family: 'bushidoregular';
+	src: url('../fonts/bushido/bushido-webfont.eot');
+	src: url('../fonts/bushido/bushido-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/bushido/bushido-webfont.woff2') format('woff2'),
+		 url('../fonts/bushido/bushido-webfont.woff') format('woff'),
+		 url('../fonts/bushido/bushido-webfont.ttf') format('truetype'),
+		 url('../fonts/bushido/bushido-webfont.svg#bushidoregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+    font-family: 'benegraphicregular';
+    src: url('../fonts/benegraphic/benegraphic-webfont.eot');
+    src: url('../fonts/benegraphic/benegraphic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/benegraphic/benegraphic-webfont.woff2') format('woff2'),
+         url('../fonts/benegraphic/benegraphic-webfont.woff') format('woff'),
+         url('../fonts/benegraphic/benegraphic-webfont.ttf') format('truetype'),
+         url('../fonts/benegraphic/benegraphic-webfont.svg#benegraphicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

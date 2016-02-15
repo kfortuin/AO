@@ -1,0 +1,61 @@
+body{ 
+	margin: auto;
+	margin-top: 200px;
+	text-align: center;
+	text-transform: cover;
+}
+
+#link{
+	margin-top: 375px;
+	position: fixed;
+	left: 10%;
+	bottom: 10%;
+	text-align: center cover;
+	color: orange;
+	font-family: seasideresortnfregular;
+}
+
+#link:hover{
+	color: white;
+}
+
+#container{
+	width: 400px;
+	margin: 0 auto;	
+}
+
+#good, #date{
+	color: orange;
+	font-size: 25pt;
+	margin-bottom: 5px;
+	text-align: center cover;
+	font-family: seasideresortnfregular;
+	font-size: 30pt;	
+}
+
+#date{
+	
+	top: 40%;
+	left: 40%;
+}
+
+#good{
+	
+	top: 27%;
+	left: 40%;	
+	right: center;
+}
+
+
+@font-face {
+    font-family: 'seasideresortnfregular';
+    src: url('../font/seasideresortnf/seasrn__-webfont.eot');
+    src: url('../font/seasideresortnf/seasrn__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/seasideresortnf/seasrn__-webfont.woff2') format('woff2'),
+         url('../font/seasideresortnf/seasrn__-webfont.woff') format('woff'),
+         url('../font/seasideresortnf/seasrn__-webfont.ttf') format('truetype'),
+         url('../font/seasideresortnf/seasrn__-webfont.svg#seasideresortnfregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

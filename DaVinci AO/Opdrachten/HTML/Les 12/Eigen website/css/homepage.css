@@ -1,0 +1,150 @@
+div.bottom-menu{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 99;
+	background-color: black;
+	text-align: center;
+	height: 50px;
+	padding: 0px;
+}
+
+
+h1{
+	text-align: center;
+	background-color: grey;
+	border: solid white;
+	border-width: 2px 0px 2px 0px;
+	padding: 5px 0px 5px 0px;
+}
+
+div.bottom-menu ul li{
+	display: inline;
+	list-style: none;
+	color: white;
+}
+
+div.bottom-menu ul li a{
+	text-decoration: none;
+	color: white;
+	margin-right: 20px;
+	padding: 2px 20px;
+}
+
+div.bottom-menu ul li a:hover{
+	color: red;
+}
+
+div.frame{
+	width: 700px;
+	text-align: left;
+	margin: 50px auto;
+	min-height: 600px;
+	background-image: url(../images/bg.jpg);
+	border: 2px solid white;
+	position: relative;
+}
+
+div.text{
+	color: white;
+	width: 650px;
+	border: 1px solid;
+	margin: auto;
+	padding: 5px;
+}
+
+.uitleg{
+	position: relative;
+	color: yellow;
+}
+
+.uitleg span{
+	display: none;
+	position: absolute;
+	top: 1.2em;
+	left: 0px;
+	width: 100px;
+	background-color: white;
+	border: 1px solid black;
+	color: red;
+	padding: 3px;
+	text-decoration: underline;
+}
+
+.uitleg:hover span{
+	display: block;
+}
+
+#content{
+	margin-top: 300px;
+}
+
+
+
+
+body{
+	background-color: #D8D8D8 ;
+}
+
+#kandelaar img{
+	position: absolute;
+	top: 60px;
+	width: 200px;
+	
+	transform: rotate(330deg)
+}
+
+#kandelaar:hover img{
+	width: 230px;
+	z-index: 99;
+}
+
+#bord img{
+	position: absolute;
+	top: 70px;
+	right: -15px;
+	width: 220px;
+	z-index: 99;
+}
+
+#bord:hover img{
+	width: 250px;
+}
+
+
+#chest{
+	position: absolute;
+	left: 90px;
+	top: 20px;
+}
+
+#chest ul{
+	display: none;
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	top: 150px;
+	left: 110px;
+}
+
+#chest:hover ul{
+	display: block;
+}
+
+#chest ul li{
+	background-color: white;
+	width: 100px;
+	padding: 2px;
+	border: black 1px solid;
+}
+
+#chest ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+#chest ul li a:hover{
+	text-decoration: underline;
+	color: blue;
+}

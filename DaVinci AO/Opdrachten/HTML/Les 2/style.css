@@ -1,0 +1,36 @@
+body{
+	background: black;
+	color:white;
+}
+
+p{
+	font-family: Verdana;
+}
+
+h1{
+	font-size: 44pt;
+	font-family: Comic Sans MS;
+	color:red;
+}
+
+h2{ 
+	font-family: Brush Script MT;
+	color:red;
+
+}
+
+ul{
+	color:#0F03FC;
+	font-family: Garamond;
+	font-size: 17pt;
+}
+
+a{
+	color:red;
+	text-decoration:none;
+}
+a:hover{
+	color: yellow;
+	text-decoration: underline; 
+}
+

@@ -1,0 +1,137 @@
+* {
+	margin : 0;
+	padding : 0;
+}
+
+body.smokey {
+	background-image : url('../images/background-smoke.jpg');
+	background-color : #000;
+	background-size : 100%;
+	background-repeat : no-repeat;
+	font-family : Verdana;
+}
+
+body.night {
+	background-image : url('../images/background-night.jpg');
+	background-color : #000;
+	background-size : 100%;
+	background-repeat : no-repeat;
+	font-family : Verdana;
+}
+
+body.night div.frame {
+	background-color : rgba(50,50,70,0.6);
+}
+
+body.misty {
+	background-image : url('../images/background-misty.jpg');
+	background-color : #000;
+	background-size : 100%;
+	background-repeat : no-repeat;
+	font-family : Verdana;
+}
+
+body.misty div.frame {
+	background-color : rgba(50,50,70,0.6);
+}
+
+
+body.zombies {
+	background-image : url('../images/background-zombies.jpg');
+	background-color : #000;
+	background-size : 100%;
+	background-repeat : no-repeat;
+	font-family : Verdana;
+}
+
+body.zombies div.frame {
+	background-color : rgba(70,10,10,0.6);
+}
+
+div.frame {
+	width : 1000px;
+	margin : 0px auto;
+	border : #222 solid 1px;
+}
+
+div.content {
+	background-color : rgba(50,50,50,0.4);
+	color : #ffff99;
+	padding : 20px 30px;
+	font-size : 20px;
+}
+
+div.header {
+	background-image : url('../images/camp-fire.png');
+	background-repeat : no-repeat;
+	background-position : right top;
+	height : 225px;
+}
+
+div.header h1 {
+	text-align : center;
+	color : white;
+	padding-top : 80px;
+	font-size : 50px;
+}
+
+div.content  p{
+	margin : 10px 0px;
+}
+
+div.menu ul {
+	list-style : none;
+	text-align : center;
+}
+
+div.menu li {
+	display : inline;
+	margin-right : 60px;
+	font-size : 24px;
+}
+
+div.menu a {
+	color : #ffbb00;
+	text-decoration : none;
+}
+
+div.menu a:hover {
+	color : #ffdd00;
+	text-decoration : underline; 	
+}
+
+div.menu ul li a.active{
+	color: white;
+	text-decoration: underline;
+}
+
+div.footer p{
+	text-align : center;
+	color : #990000;
+	font-size : 12px;
+	padding : 10px 0;
+	background-color : #330000;
+}
+
+.hints, .solution{
+	margin-top : 40px;
+	position : relative;
+}
+
+.hints ul, .solution div.story {
+	padding : 40px;
+	display : none;
+	position : absolute;
+	top : 35px;
+	left : 0px;
+	background-color : black;
+}
+
+.hints:hover, .solution:hover {
+	cursor : pointer;
+}
+.hints:hover ul, .solution:hover div.story {
+	display : block;
+	z-index : 99;
+	border : 1px white solid;
+}

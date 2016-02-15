@@ -1,0 +1,95 @@
+div.frame{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;	
+	border: 2px solid black;
+}
+
+div.header{
+	height: 252px;
+	background: url(header.jpg);
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+div.content{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+body{
+	background: url(bg.png);
+	background-repeat: repeat-x;
+	margin: 0px;
+	background-color: #99cccc;
+}
+
+h1{
+	margin: 0px;
+}
+
+ul.top-menu{
+	margin-top: 145px;
+	padding: 0px;
+}
+
+ul.top-menu li{
+	color: white;
+	display: inline;
+	font-family: Verdana;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+img.top-left{
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+img.mid-right{
+	float: right;
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;	
+}
+
+img.bottom-left{
+	float: left;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+img.top-mid{
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+img.bottom-right{
+	float: right;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+img.top-right{
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+span.clear{
+	display: block;
+	clear: both;
+}
+
+ul.top-menu li a{
+	color: white;
+	text-decoration: none;
+}
+
+ul.top-menu li a:hover{
+	color: white;
+}
+
+
